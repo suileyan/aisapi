@@ -409,7 +409,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 若想要添加更多或使用遇到问题请联系 suileyan@foxmail.com
 
 ## If you want to add more or encounter problems using, please contact suileyan@foxmail.com
-
-查看更多示例和详细API文档，请参阅项目中的[docs](docs)目录或访问我们的[官方文档网站](https://aisapi.dev)。
-
-For more examples and detailed API documentation, please refer to the [docs](docs) directory in the project or visit our [official documentation website](https://aisapi.dev).
