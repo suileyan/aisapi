@@ -1,0 +1,65 @@
+{
+  "name": "aisapi",
+  "version": "1.0.0",
+  "description": "A JavaScript/TypeScript API library for multiple AI providers",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rimraf lib && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build",
+    "lint": "tsc --noEmit",
+    "example:ts": "ts-node src/example.ts",
+    "example:openai": "ts-node src/example-openai.ts",
+    "example:anthropic": "ts-node src/example-anthropic.ts",
+    "example:deepseek": "ts-node src/example-deepseek.ts",
+    "example:grok": "ts-node src/example-grok.ts",
+    "example:doubao": "ts-node src/example-doubao.ts",
+    "example:gemini": "ts-node src/example-gemini.ts",
+    "example:js": "node lib/example.js"
+  },
+  "keywords": [
+    "ai",
+    "openai",
+    "gpt",
+    "claude",
+    "anthropic",
+    "gemini",
+    "deepseek",
+    "grok",
+    "xai",
+    "doubao",
+    "bytedance",
+    "api",
+    "typescript",
+    "javascript",
+    "ernie",
+    "wenxin",
+    "xinghuo",
+    "spark",
+    "chatglm",
+    "zhipu",
+    "moonshot",
+    "kimi"
+  ],
+  "author": "suileyan@foxmail.com",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suileyan/aisapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suileyan/aisapi/issues"
+  },
+  "homepage": "https://github.com/suileyan/aisapi#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.12",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
