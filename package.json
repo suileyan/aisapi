@@ -1,6 +1,6 @@
 {
   "name": "aisapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript/TypeScript API library for multiple AI providers",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
