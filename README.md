@@ -2,6 +2,8 @@
 
 # AisAPI - Multi-AI Model Unified Interface
 
+[![NPM下载量](https://img.shields.io/npm/dm/aisapi.svg?style=plastic&logo=npm)](https://www.npmjs.com/package/aisapi)
+
 AisAPI是一个让你轻松对接多种AI大模型的库，提供统一的接口来调用OpenAI、Claude、Gemini、文心一言等国内外主流大模型服务。
 
 AisAPI is a library that allows you to easily connect to various AI models, providing a unified interface to call mainstream AI services such as OpenAI, Claude, Gemini, ERNIE, and more.
@@ -238,16 +240,16 @@ const speech = await gpt.textToSpeech({
 ## 支持的AI服务及功能 | Supported AI Services and Features
 
 
-| 功能 Features               | OpenAI | Claude | Gemini | DeepSeek | ERNIE | Spark | ChatGLM | Moonshot |
-| --------------------------- | :----: | :----: | :----: | :------: | :---: | :---: | :-----: | :------: |
-| 文本生成 Text Generation    |   ✅   |   ✅   |   ✅   |    ✅    |  ✅  |  ✅  |   ✅   |    ✅    |
-| 图像生成 Image Generation   |   ✅   |   ❌   |   ✅   |    ❌    |  ❌  |  ❌  |   ❌   |    ❌    |
-| 聊天对话 Chat Dialogue      |   ✅   |   ✅   |   ✅   |    ✅    |  ✅  |  ✅  |   ✅   |    ✅    |
-| 语音识别 Speech Recognition |   ✅   |   ❌   |   ❌   |    ❌    |  ❌  |  ❌  |   ❌   |    ❌    |
-| 语音合成 Speech Synthesis   |   ✅   |   ❌   |   ❌   |    ❌    |  ❌  |  ❌  |   ❌   |    ❌    |
-| 向量嵌入 Vector Embeddings  |   ✅   |   ❌   |   ❌   |    ✅    |  ❌  |  ❌  |   ❌   |    ❌    |
-| JSON输出 JSON Output        |   ✅   |   ✅   |   ✅   |    ✅    |  ✅  |  ✅  |   ✅   |    ✅    |
-| 流式输出 Streaming Output   |   ✅   |   ✅   |   ✅   |    ✅    |  ✅  |  ✅  |   ✅   |    ✅    |
+| 功能 Features               | OpenAI | Claude | Gemini | DeepSeek | ERNIE | Spark | ChatGLM | Moonshot | Doubao | Grok |
+| --------------------------- | :----: | :----: | :----: | :------: | :---: | :---: | :-----: | :------: | :----: | :--: |
+| 文本生成 Text Generation    |   ✅   |   ✅   |   ✅   |    ✅    |  ✅   |  ✅   |   ✅    |    ✅    |   ✅   |  ✅  |
+| 图像生成 Image Generation   |   ✅   |   ❌   |   ✅   |    ❌    |  ❌   |  ❌   |   ❌    |    ❌    |   ❌   |  ❌  |
+| 聊天对话 Chat Dialogue      |   ✅   |   ✅   |   ✅   |    ✅    |  ✅   |  ✅   |   ✅    |    ✅    |   ✅   |  ✅  |
+| 语音识别 Speech Recognition |   ✅   |   ❌   |   ❌   |    ❌    |  ❌   |  ❌   |   ❌    |    ❌    |   ❌   |  ❌  |
+| 语音合成 Speech Synthesis   |   ✅   |   ❌   |   ❌   |    ❌    |  ❌   |  ❌   |   ❌    |    ❌    |   ❌   |  ❌  |
+| 向量嵌入 Vector Embeddings  |   ✅   |   ❌   |   ❌   |    ✅    |  ❌   |  ❌   |   ❌    |    ❌    |   ❌   |  ❌  |
+| JSON输出 JSON Output        |   ✅   |   ✅   |   ✅   |    ✅    |  ✅   |  ✅   |   ✅    |    ✅    |   ✅   |  ✅  |
+| 流式输出 Streaming Output   |   ✅   |   ✅   |   ✅   |    ✅    |  ✅   |  ✅   |   ✅    |    ✅    |   ✅   |  ✅  |
 
 ## 提供商配置参数 | Provider Configuration Parameters
 
